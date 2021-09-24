@@ -1,0 +1,165 @@
+.done {
+  text-decoration: line-through;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.App {
+ background: linear-gradient(
+  90deg,
+ 
+  rgb(116, 98, 185)0%,
+
+ rgb(152, 128, 242) 100%
+);
+  text-align: center;
+
+  align-items: center;
+  height: 600px;
+  padding-top: 10px;
+}
+h1 {
+  color:rgb(112,124,236);
+  font-size: 2rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+input {
+  outline: none;
+  border: 2px solid rgb(240, 124, 159);
+  padding: 14px 32px 14px 16px;
+  background: transparent;
+  width: 28vw;
+
+  color: black;
+  border-radius: 18px;
+}
+.add-btn {
+  outline: none;
+  border: none;
+  padding: 16px;
+  background-color: rgb(236, 19, 243);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height:50px;
+}
+
+.task button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+
+  width: 30px;
+  transition: all 0.5s;
+}
+.all {
+  outline: none;
+  border: none;
+  padding: 16px;
+  background-color: rgb(107, 162, 253);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
+height: 50px;}
+
+
+.btn-filter {
+  justify-content: space-around;
+  display: flex;
+  padding: 20px;
+}
+.add button {
+  padding: 5px 5px;
+  outline: none;
+  border: none;
+  padding: 16px;
+  background-color: rgb(240, 124, 159);
+  border: none;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 18px;
+}
+.task {
+  color: white;
+  font-size: 1em;
+  justify-content: space-between;
+
+  align-items: center;
+
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 12px auto;
+  background-color:rgb(116, 98, 185);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  /* height: 40px; */
+  padding: 5px 5px;
+}
+.todo-container {
+  background-color:white;
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 500px;
+  border-radius: 30px;
+  padding-top: 9px;
+}
+.todo-row:nth-child(1n) {
+  height: 50px;
+ background-color: rgb(152, 128, 242);
+  border-radius: 18px;
+  text-align: center;
+}
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  color: #fff;
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+/* .todo-row:nth-child(1n) {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(
+      90deg,
+      rgba(155, 0, 250, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    border-radius: 18px;
+  } */
